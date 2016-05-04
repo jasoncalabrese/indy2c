@@ -1,16 +1,62 @@
 {
-  "_id": "5729f50865110bbfc192e345",
-  "_type": "CalBGForPH",
-  "_description": "CalBGForPH 2016-05-04T06:09:37 head[2], body[0] op[0x0a]",
-  "timestamp": "2016-05-04T06:09:37-07:00",
-  "_body": "",
-  "_head": "0a66",
-  "amount": 102,
-  "_date": "6549266410",
-  "eventType": "BG Check",
+  "_id": "5729f62165110bbfc192e349",
+  "duration": 0,
+  "bolus": {
+    "_type": "Bolus",
+    "_description": "Bolus 2016-05-04T06:11:36 head[8], body[0] op[0x01]",
+    "timestamp": "2016-05-04T06:11:36-07:00",
+    "_body": "",
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus",
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]",
+        "_body": "",
+        "_head": "5c050cbbd0",
+        "data": [
+          {
+            "amount": 0.3,
+            "age": 443
+          }
+        ],
+        "_date": ""
+      }
+    ],
+    "programmed": 2.25,
+    "duration": 0,
+    "amount": 2.25,
+    "unabsorbed": 0,
+    "_head": "01005a005a000000",
+    "type": "normal",
+    "_date": "644b260410"
+  },
+  "timestamp": "2016-05-04T06:11:36-07:00",
+  "created_at": "2016-05-04T06:11:36-07:00",
+  "carbs": 24,
+  "ratio": "10",
+  "bg": "102",
   "glucose": 102,
-  "glucoseType": "Finger",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH",
-  "created_at": "2016-05-04T06:09:37-07:00",
+  "glucoseType": "BolusWizard",
+  "wizard": {
+    "_type": "BolusWizard",
+    "bg": 102,
+    "_description": "BolusWizard 2016-05-04T06:11:36 head[2], body[15] op[0x5b]",
+    "timestamp": "2016-05-04T06:11:36-07:00",
+    "_body": "185000645073fa0060f80000005aa0",
+    "carb_input": 24,
+    "bg_target_high": 160,
+    "sensitivity": 80,
+    "carb_ratio": 10,
+    "food_estimate": 2.4,
+    "unabsorbed_insulin_total": 0,
+    "correction_estimate": 51.05,
+    "bg_target_low": 115,
+    "_head": "5b66",
+    "bolus_estimate": 2.25,
+    "_date": "644b060410"
+  },
+  "eventType": "Meal Bolus",
+  "insulin": 2.25,
+  "notes": "Normal bolus with wizard.\nProgrammed bolus 2.25\nDelivered bolus 2.25\nPercent delivered:  100%\nFood estimate 2.4\nCorrection estimate 51.05\nBolus estimate 2.25\nTarget low 115\nTarget high 160\nHypothetical glucose delta -180\nGlucose was: 102",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus",
   "enteredBy": "openaps://medtronic/723"
 }
