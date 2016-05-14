@@ -1,24 +1,14 @@
 {
-  "_id": "57369ea065110bbfc192f5cd",
-  "duration": 0,
-  "bolus": {
-    "programmed": 0.6,
-    "_type": "Bolus",
-    "_description": "Bolus 2016-05-13T20:40:48 head[8], body[0] op[0x01]",
-    "timestamp": "2016-05-13T20:40:48-07:00",
-    "_body": "",
-    "_head": "0100180018002c00",
-    "amount": 0.6,
-    "unabsorbed": 1.1,
-    "duration": 0,
-    "type": "normal",
-    "_date": "7068346d10"
-  },
-  "timestamp": "2016-05-13T20:40:48-07:00",
-  "created_at": "2016-05-13T20:40:48-07:00",
-  "eventType": "Correction Bolus",
-  "insulin": 0.6,
-  "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 0.6\nDelivered bolus 0.6\nPercent delivered:  100%",
-  "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus",
-  "enteredBy": "openaps://medtronic/723"
+  "_id": "5736a8cb65110bbfc192f5d7",
+  "_type": "Rewind",
+  "_description": "Rewind 2016-05-13T21:23:53 head[2], body[0] op[0x21]",
+  "timestamp": "2016-05-13T21:23:53-07:00",
+  "_body": "",
+  "_head": "2100",
+  "_date": "7557150d10",
+  "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind",
+  "created_at": "2016-05-13T21:23:53-07:00",
+  "enteredBy": "openaps://medtronic/723",
+  "eventType": "Note",
+  "notes": "Rewind 723 "
 }
